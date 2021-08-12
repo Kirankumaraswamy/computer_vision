@@ -1,0 +1,60 @@
+(venv) (base) kiran@kiran-Inspiron-7591:~/kiran/dl_lab/week1/assignment/Kiran_Kumaraswamy_assignment1_new/Computer_Vision_Exercise_2021$ python nearest_neighbors.py "data/crops/images" --weights-init="results/savedmodels/pretrain_best_model_new_5.pth"
+{'data_folder': 'data/crops/images',
+ 'logs_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth/logs',
+ 'output_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth',
+ 'output_root': 'results',
+ 'size': 256,
+ 'weights_init': 'results/savedmodels/pretrain_best_model_new_5.pth'}
+
+Computing NNs for sample 2
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 147.77it/s]
+Closest neighbors for image :  2  ->  [  2 407 830 934 677]
+Closest neighbors distance for image :  2  ->  [0.         0.99261922 0.99549401 0.99847198 0.99896157]
+
+(venv) (base) kiran@kiran-Inspiron-7591:~/kiran/dl_lab/week1/assignment/Kiran_Kumaraswamy_assignment1_new/Computer_Vision_Exercise_2021$ python nearest_neighbors.py "data/crops/images" --weights-init="results/savedmodels/pretrain_best_model_new_5.pth"
+{'data_folder': 'data/crops/images',
+ 'logs_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth/logs',
+ 'output_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth',
+ 'output_root': 'results',
+ 'size': 256,
+ 'weights_init': 'results/savedmodels/pretrain_best_model_new_5.pth'}
+
+Computing NNs for sample 5
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 152.02it/s]
+Closest neighbors for image :  5  ->  [  5 686  70 819 538]
+Closest neighbors distance for image :  5  ->  [0.         1.03664494 1.04897606 1.0522182  1.05843925]
+
+(venv) (base) kiran@kiran-Inspiron-7591:~/kiran/dl_lab/week1/assignment/Kiran_Kumaraswamy_assignment1_new/Computer_Vision_Exercise_2021$ python nearest_neighbors.py "data/crops/images" --weights-init="results/savedmodels/pretrain_best_model_new_5.pth"
+{'data_folder': 'data/crops/images',
+ 'logs_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth/logs',
+ 'output_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth',
+ 'output_root': 'results',
+ 'size': 256,
+ 'weights_init': 'results/savedmodels/pretrain_best_model_new_5.pth'}
+
+Computing NNs for sample 29
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 151.58it/s]
+Closest neighbors for image :  29  ->  [ 29 462 928  42 114]
+Closest neighbors distance for image :  29  ->  [0.         1.05520928 1.0597831  1.06066191 1.06289816]
+
+(venv) (base) kiran@kiran-Inspiron-7591:~/kiran/dl_lab/week1/assignment/Kiran_Kumaraswamy_assignment1_new/Computer_Vision_Exercise_2021$ python nearest_neighbors.py "data/crops/images" --weights-init="results/savedmodels/pretrain_best_model_new_5.pth"
+{'data_folder': 'data/crops/images',
+ 'logs_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth/logs',
+ 'output_folder': 'results/nearest_neighbors/results_saved_pretrain_best_model_new_5.pth',
+ 'output_root': 'results',
+ 'size': 256,
+ 'weights_init': 'results/savedmodels/pretrain_best_model_new_5.pth'}
+
+Computing NNs for sample 2
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 151.78it/s]
+Closest neighbors for image :  2  ->  [  2 407 830 934 677]
+Closest neighbors distance for image :  2  ->  [0.         0.99261922 0.99549401 0.99847198 0.99896157]
+Computing NNs for sample 5
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 152.08it/s]
+Closest neighbors for image :  5  ->  [  5 686  70 819 538]
+Closest neighbors distance for image :  5  ->  [0.         1.03664494 1.04897606 1.0522182  1.05843925]
+Computing NNs for sample 29
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 151.14it/s]
+Closest neighbors for image :  29  ->  [ 29 462 928  42 114]
+Closest neighbors distance for image :  29  ->  [0.         1.05520928 1.0597831  1.06066191 1.06289816]
+
