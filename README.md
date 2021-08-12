@@ -1,25 +1,4 @@
-# Setup guide: TF pool
-These steps will set up the environment when you work on the pool computer at the technical faculty.
-## 0. Log in to the pool:
-
-    Connect to the pool:
-    
-    ssh <username>@login.informatik.uni-freiburg.de -p 22 
-    
-    Ask for a machine with gpu:
-    
-    ssh tfpoolXX
-    
-    XX corresponds to the number of the machine you want to log in. 
-    Check the pool_machines.txt to see which ones have gpu
-    Check GPU usage using the command
-
-    nvidia-smi
-    
-    you should have a folder with 10GB of space in: /project/dl2021s/<username> 
-    if not contact the pool manager to add your username. 
-    go to your folder before running any script.
-    
+   
 ## 1. Add the necessary CUDA binaries to the $PATH environment variable:
 
     add the following lines to the ~/.bashrc file in your home directory:
